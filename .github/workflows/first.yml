@@ -1,0 +1,13 @@
+name: My app
+on: push
+jobs:
+  first-job:
+    name: Unit testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome msg
+        run: echo "My first github action"
+      - name: list files
+        run: ls -la
+      - name: date
+        run: echo $(date)
