@@ -3,7 +3,7 @@ on: push
 jobs:
   first-job:
     name: Unit testing
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Welcome msg
         run: echo "My first github action"
