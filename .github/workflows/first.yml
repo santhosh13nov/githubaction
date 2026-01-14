@@ -4,7 +4,7 @@ on:
 jobs:
   first-job:
     name: Unit testing
-    runs-on: self-hosted
+    runs-on: ubuntu-24.04
     steps:
       - name: Welcome msg
         run: echo "My first github action"
